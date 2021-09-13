@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand d-inline-flex align-items-center" href="https://www.linkedin.com/in/bamba-ndour-a46a8420a">
+       <i class="fas fa-code d-inline-flex mr-2 avatar32 bg-info-dark shadow-sm text-primary-light rounded-circle align-items-center justify-content-center fs-1x"></i> 
+       <span class="text-white fs-1x font500">Bamba Ndour</span> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a href="/home" class="nav-link">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a href="/about" class="nav-link">About Me <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a href="/contact" class="nav-link">Contact Me <span class="sr-only"></span></a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input type="search" name="key" id="searchName" class="form-control mr-sm-2" placeholder="Search employees..." required>
+        </form>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <span class="nav-link">${ username } <span class="sr-only"></span></span>
+            </li>
+            <li class="nav-item active">
+                <a href="/logout" class="nav-link">Log Out <span class="sr-only"></span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
